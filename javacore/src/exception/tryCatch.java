@@ -7,7 +7,8 @@ public class tryCatch {
 		try {
 			int c=a/b;
 			System.out.println(c);
-		}catch(NullPointerException e)
+		}
+		catch(NullPointerException e)
 		{
 			System.out.println("Block 1");
 		}
